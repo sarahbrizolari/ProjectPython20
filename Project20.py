@@ -41,8 +41,8 @@ while x == 0:
         "Ano_ingresso": input("Digite o ano do ingresso: "),
         "Discente_situacao": input("Digite a situaçao: ")}
 
-        x = mycol.insert_one(listaData)
-        print(x.inserted_id)
+        ins = mycol.insert_one(listaData)
+        print(ins.inserted_id)
 
    elif y == 3:
         dados = []
